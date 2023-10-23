@@ -5,6 +5,7 @@ class Food {
   double time;
   double rate;
   int reviews;
+  bool isLiked;
 
   Food({
     required this.name,
@@ -13,6 +14,7 @@ class Food {
     required this.time,
     required this.rate,
     required this.reviews,
+    required this.isLiked,
   });
 }
 
@@ -24,6 +26,7 @@ final List<Food> foods = [
     time: 15,
     rate: 4.4,
     reviews: 23,
+    isLiked: false,
   ),
   Food(
     name: "Beef Steak",
@@ -32,6 +35,7 @@ final List<Food> foods = [
     time: 25,
     rate: 4.4,
     reviews: 23,
+    isLiked: true,
   ),
   Food(
     name: "Butter Chicken",
@@ -40,6 +44,7 @@ final List<Food> foods = [
     time: 18,
     rate: 4.2,
     reviews: 10,
+    isLiked: false,
   ),
   Food(
     name: "French Toast",
@@ -48,6 +53,7 @@ final List<Food> foods = [
     time: 16,
     rate: 4.6,
     reviews: 90,
+    isLiked: true,
   ),
   Food(
     name: "Dumplings",
@@ -56,6 +62,7 @@ final List<Food> foods = [
     time: 30,
     rate: 4.0,
     reviews: 76,
+    isLiked: false,
   ),
   Food(
     name: "Mexican Pizza",
@@ -64,5 +71,6 @@ final List<Food> foods = [
     time: 25,
     rate: 4.4,
     reviews: 23,
+    isLiked: false,
   ),
 ];
